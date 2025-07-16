@@ -1,0 +1,81 @@
+#######################################
+# Syntax Coloring Map For zonioPipeline
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ZonioPipeline	KEYWORD1
+SensorHistory	KEYWORD1
+I2CAdapter	KEYWORD1
+MqttHelper	KEYWORD1
+SimpleWeatherStation	KEYWORD1
+PipelineConfig	KEYWORD1
+PipelineState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+updateSensor	KEYWORD2
+setConfig	KEYWORD2
+getConfig	KEYWORD2
+setSensorName	KEYWORD2
+setStabilityThreshold	KEYWORD2
+onStateChanged	KEYWORD2
+onCpuChanged	KEYWORD2
+onIntervalChanged	KEYWORD2
+onStabilityChanged	KEYWORD2
+onSensorUpdated	KEYWORD2
+getSensorValue	KEYWORD2
+getSensorChangeRate	KEYWORD2
+isSensorStable	KEYWORD2
+forceState	KEYWORD2
+resetStability	KEYWORD2
+reset	KEYWORD2
+getCurrentState	KEYWORD2
+getCurrentInterval	KEYWORD2
+getCurrentCpuFreq	KEYWORD2
+isStabilityDetected	KEYWORD2
+getStabilityDuration	KEYWORD2
+getTimeInState	KEYWORD2
+getStateShortName	KEYWORD2
+getStateFullName	KEYWORD2
+printDebugInfo	KEYWORD2
+printSensorStatus	KEYWORD2
+getStatusJson	KEYWORD2
+switchBus	KEYWORD2
+getSwitchDelay	KEYWORD2
+getInitDelay	KEYWORD2
+getSensorDelay	KEYWORD2
+getVemlDelay	KEYWORD2
+buildWeatherPayload	KEYWORD2
+buildStatusPayload	KEYWORD2
+buildSystemPayload	KEYWORD2
+buildSensorPayload	KEYWORD2
+add	KEYWORD2
+getChangeRate	KEYWORD2
+isStable	KEYWORD2
+getLastValue	KEYWORD2
+getAverageValue	KEYWORD2
+getMinValue	KEYWORD2
+getMaxValue	KEYWORD2
+hasEnoughData	KEYWORD2
+printHistory	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+STATE_REACTIVE	LITERAL1
+STATE_SHORT	LITERAL1
+STATE_MEDIUM	LITERAL1
+STATE_LONG	LITERAL1
+
+ZONIO_PIPELINE_VERSION	LITERAL1
+ZONIO_PIPELINE_VERSION_MAJOR	LITERAL1
+ZONIO_PIPELINE_VERSION_MINOR	LITERAL1
+ZONIO_PIPELINE_VERSION_PATCH	LITERAL1
