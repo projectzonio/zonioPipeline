@@ -377,7 +377,7 @@ float ZonioPipeline::getSensorChangeRate(int sensorIndex) {
   return 0.0;
 }
 
-bool ZonioPipeline::isSensorStable(int sensorIndex) {
+bool ZonioPipeline::isSensorStable(int sensorIndex) const {
   if (sensorIndex >= 0 && sensorIndex < sensorHistories.size()) {
     float threshold = (sensorIndex < stabilityThresholds.size()) ? stabilityThresholds[sensorIndex] : 1.0;
     return sensorHistories[sensorIndex]->isStable(threshold, config.stabilitySamples);
