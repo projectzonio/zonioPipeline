@@ -159,7 +159,7 @@ public:
   void updateSensor(int sensorIndex, float value, unsigned long timestamp = 0);
   float getSensorValue(int sensorIndex);
   float getSensorChangeRate(int sensorIndex);
-  bool isSensorStable(int sensorIndex);
+  bool isSensorStable(int sensorIndex) const;
   
   // Pipeline control
   void begin();
